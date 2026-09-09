@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffd6ff #e6deff);
+    color: #333;
+}
+nav {
+    background-image: url(https://www.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.facebook.com%2F100063911688945%2Fposts%2Fcute-aesthetic-light-pinkbaby-pink-wallpapers%25EF%25B8%258F%25EF%25B8%258F%25EF%25B8%258F%2F199379392047276%2F&ved=0CBYQjRxqFwoTCKDjl-T8yJYDFQAAAAAdAAAAABA4&opi=89978449);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav a {
+    text-decoration: none;
+    margin: 20px;
+    color: #333;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    color: purple;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+ body {
+    background-image: url(https://www.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.facebook.com%2F100063911688945%2Fposts%2Fcute-aesthetic-light-pinkbaby-pink-wallpapers%25EF%25B8%258F%25EF%25B8%258F%25EF%25B8%258F%2F199379392047276%2F&ved=0CBYQjRxqFwoTCKDjl-T8yJYDFQAAAAAdAAAAABA4&opi=89978449);
+    background-size: cover;
+    background-position: centre;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+ } 
+ 
