@@ -1,0 +1,14 @@
+    h1 {
+     color:pink;
+    }
+    button:hover{
+        background-color:  purple;  
+        cursor: pointer;
+        font-size: 20px; } 
+        #title{
+
+            width: 1400px;
+            text-align: center;
+            margin-top:50px;
+
+        }
