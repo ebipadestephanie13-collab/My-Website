@@ -1,6 +1,11 @@
-    h1 {
-     color:pink;
+ :root { 
+    --titlesectionPrimaryColor: light pink;
+ }  
+   
+   h1 {
+     color: var(--titlesectionPrimaryColor);
     }
+    
     button:hover{
         background-color:  purple;  
         cursor: pointer;
