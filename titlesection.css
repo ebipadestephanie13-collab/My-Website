@@ -2,19 +2,25 @@
     --titlesectionPrimaryColor: light pink;
  }  
    
-   h1 {
-     color: var(--titlesectionPrimaryColor);
-    }
-    
-    button:hover{
-        background-color:  purple;  
-        cursor: pointer;
-        font-size: 20px; } 
-
-        #title{
-   
-            text-align: center;
+          #title {
+            color:var(--titlesectionPrimaryColor);
+             text-align: center;
             padding-top: 200px;
             background-position: center top;
-            
-        }
+        } 
+
+
+    .title-section-button {
+      color:var(--titlesectionPrimaryColor);
+      border:solid var(--titlesectionPrimaryColor) 1px;
+      border-radius: 5px;
+      padding: 15px 20px;
+      background-color: transparent;
+    
+    }
+
+    .title-section-button:hover {
+        background-color:  purple;  
+        cursor: pointer;
+         } 
+
