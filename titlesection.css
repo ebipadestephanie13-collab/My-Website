@@ -8,7 +8,13 @@
             padding-top: 200px;
             background-position: center top;
         } 
+.title-secion-header { 
+  margin-bottom: -5px;
+}
 
+.title-section-subtitle {
+  margin-bottom: 40px;
+}
 
     .title-section-button {
       color:var(--titlesectionPrimaryColor);
