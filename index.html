@@ -4,6 +4,7 @@
 
 <head>
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="./aboutmesection/aboutmesecton.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -16,7 +17,17 @@
     <p>My name is stephanie and I am a web developer. I enjoy creating websites and learning new technologies.</p>
     <button class="title-section-button" onclick="makeDreamsComeTrue()">click to make dreams come true</button>
 </div>
+<div class="misc-section" id="aboutme">
+    <div class="text-block-container">
+        <h1>
+           <p class="aboutme-section-description">Hi,I'm stephanie-a curious mind with big dreams and a soft spot for creativity and tech.
+            I'm a law student who loves learning new things, exploringntechnology, creating ideas, and turning random thoughts into something real. I'm currently learning more about web development and buliding my own little projects along the way.
+            Still becoming the person I dream of being. </p>
+        </h1>
+    </div>
 
+
+</div>
 </body>
  </html>
 
@@ -46,8 +57,20 @@ body{
                    background-size: cover;
                    padding:25px;
 }
-
-
+.misc-section {
+    width:100vw;
+    padding: 100px 25px;
+}
+.text-block-container{
+     width: 65%;
+     margin:0 auto;
+}
+ @media screen and (max-width: 600px) {
+    .text-block-container {
+        width: 100%;
+    }
+    
+ }
 </style>
     <script>
         function makeDreamsComeTrue() { 
